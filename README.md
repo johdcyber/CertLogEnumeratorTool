@@ -4,7 +4,7 @@
 
 Johndcyber Cert Log Enumerator is a Python-based tool designed to aid security researchers, network administrators, and SSL certificate enthusiasts in enumerating SSL certificates for a specified domain via crt.sh. This script simplifies SSL exploration, providing detailed insights into subdomain structures, HTTP status codes, and IP addresses, thereby facilitating a deeper understanding of a domain's SSL certificate landscape.
 
-## Why Johndcyber Cert Log Enumerator?
+## Why Johndcyber's Cert Log Enumerator Tool?
 
 This tool stands out for its:
 - Precision in **subdomain enumeration**.
