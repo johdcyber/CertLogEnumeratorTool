@@ -23,6 +23,26 @@ The Johndcyber Cert Log Enumerator operates in several steps:
 3. **Reverse DNS Lookup:** For all subdomains returning a 200 OK status, the script performs a reverse DNS lookup, resolving the domain names back to their IP addresses, which are then logged.
 4. **Organized Reporting:** All findings are neatly categorized into files within a directory named after the domain, ensuring organized access to the data collected.
 
+### Basic Execution
+
+1. **Open your terminal:** Navigate to the directory where the script is located.
+
+2. **Run the script:** Execute the script by typing the following command and pressing Enter:
+
+    ```bash
+    python johndcyber_cert_log_enumerator.py
+    ```
+
+3. **Enter the domain name:** When prompted, input the domain you wish to enumerate (omit 'https://'). For example:
+
+    ```
+    Enter the domain you want to enumerate (without 'https://'): example.com
+    ```
+
+The script will then proceed to query crt.sh for subdomains, check their HTTP statuses, perform reverse DNS lookups where applicable, and organize the findings into respective files within a directory named after the domain.
+
+
+
 ## Outputs Explained
 
 - `unique_domains.txt`: Lists all unique subdomains discovered during the enumeration process.
